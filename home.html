@@ -1,0 +1,895 @@
+# aagama
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Annual national level techinal fest of the Anurag Group Of Institutions, Hyderabad!">
+<meta name="keywords" content=" aagama team,mobile responsive,cvsr fest,anurag group of institutions,hyderabad fest, aagama,aagama 2k17 fest,fest,aagama 2k17">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="anurag.ico">
+<title>Aagama 2K17 | Home </title>
+<script>
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid white}";
+        document.body.appendChild(css);
+    };
+
+var countDownDate = new Date("Mar 17, 2017 09:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + " days " + hours + "h "
+  + minutes + "m " + seconds + "s to go!!!!!!!<br>";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+</script>
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+<!-- MY CSS & JS-->
+<script src="js/jquery.js"></script>
+<script src="wow.min.js"></script>
+<script src="js/jquery.backstretch.js"></script>
+<script src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap/inbootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/inbootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/inbootstrap/css/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="bootstrap/inbootstrap/css/bootstrap.theme.css.map.css">
+
+<link rel="stylesheet" type="text/css" href="bootstrap/inbootstrap/css/bootstrap-theme.min.css">
+
+<link rel="stylesheet" type="text/css" href="bsindex.css">
+
+<link rel="stylesheet" type="text/css" href="animate.css">
+
+
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link href='//fonts.googleapis.com/css?family=Cinzel' rel='stylesheet'>
+
+<link href='//fonts.googleapis.com/css?family=Almendra' rel='stylesheet'>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+<script type="text/javascript" src="engine1/jquery.js">
+</script>
+<!-- End WOWSlider.com HEAD section -->
+
+<style>
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    }
+
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-right: -5px;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+
+
+
+* { color:#000; text-decoration: none;}
+.parallax {
+    /* The image used */
+    width:100%;
+ background-color: #eee;
+    /* Set a specific height */
+    min-height: 580px;
+    margin: 0 0 0 0;
+   <!-- margin-left: -10px; -->
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.new {
+height: 720px;
+width:100%;
+background-image:url("home.jpg");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 5em;
+display: flex;
+justify-content: center;
+}
+
+.new1 {
+height: 620px;
+background-image:url("download.jpg");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: -48px;
+}
+
+.new2 {
+height:110vh;
+background-image:url("img5.jpg");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.new3 {
+height:730px;
+background-image:url("img10.jpg");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.new4 {
+height:630px;
+background-image:url("img8.jpg");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.new5 {
+height:630px;
+background-image:url("img9.jpg");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.new6 {
+height:630px;
+background-image:url("img.png");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.new8 {
+height:630px;
+<!--background-image:url("img.png");-->
+font-size:26px;
+color:white;
+background-color: #556;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.new10 {
+margin-left: 10.5px;
+margin-right: 3px;
+border-style:groove;
+border-color: #000;
+height:580px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.new11 {
+height:630px;
+background-image:url("back4.jpg");
+font-size:26px;
+color:white;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+header {
+   position: fixed;
+height: 50%;
+   width: 100%;
+margin-top: -0.3%;
+margin-left: 0%;
+   z-index: 120;
+}
+
+.button {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #000;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+ul {
+    height: 20%;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #bbb;
+}
+
+.container {
+    position: relative;
+    width: 20%;
+}
+
+.image {
+  border-radius: 15px;
+  opacity: 1;
+  display: block;
+  width: 21vw;
+  height: 350px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #333399;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#slideshow {
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+#chem .chem1,#civil .civil1,#cse .cse1,#ece .ece1,#eee .eee1,#it .it1,#mba .mba1,#mech .mech1,#pharm .pharm1 {
+    
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s  ease-in-out;
+    -o-transition: all .3s  ease-in-out;
+    -ms-transition: all .3s  ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#chem:hover .chem1,#civil:hover .civil1,#cse:hover .cse1,#ece:hover .ece1,#eee:hover .eee1,#it:hover .it1,#mba:hover .mba1,#mech:hover .mech1,#pharm:hover .pharm1 {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari and Chrome */
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s  ease-in-out;
+    -o-transition: all .3s  ease-in-out;
+    -ms-transition: all .3s  ease-in-out;
+    transition: all .3s ease-in-out;
+    }
+
+@keyframes aagamalogo {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.aagama {
+animation-name: aagamalogo;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 2.8s;
+}
+
+a.mainNav:link    {
+  /* Applies to unvisited links in class mainNav */
+  text-decoration:  none;
+  font-weight:      lighter;
+font-size: 1.2vw;
+    } 
+
+a.mainNav:visited {
+  /* Applies to visited links in class mainNav */
+  text-decoration:  none;
+  font-weight:      lighter;
+
+  } 
+
+a.mainNav:hover   {
+  /* Applies to links under the pointer in class mainNav */
+    background-color: #eee;
+  font-weight: bold;
+  font-style:      italic;
+color: black;
+  } 
+
+a.mainNav:active  {
+  /* Applies to activated links in class mainNav */
+
+  font-weight:      lighter;
+  background-color: black;
+  color: white;
+  } 
+
+a.typewrite:link   {
+  /* Applies to links under the pointer in class mainNav */
+    text-decoration:none;
+cursor:default;
+  } 
+
+a.typewrite:hover   {
+  /* Applies to links under the pointer in class mainNav */
+    text-decoration:none;
+cursor:default;
+  } 
+
+a.typewrite:visited   {
+  /* Applies to links under the pointer in class mainNav */
+    text-decoration:none;
+cursor:default;
+  } 
+
+a.typewrite:active  {
+  /* Applies to links under the pointer in class mainNav */
+    text-decoration:none;
+cursor:default;
+  } 
+</style>
+</head>
+<body style="width: 100%; ">
+ 
+<header>
+    <ul  style="width: 100%; ">
+  <li  style="width:10.7vw;"> <a class="mainNav" href="home.html" class="active" >HOME</a></li>
+  <li  style=" width:10.7vw;"> <a class="mainNav" href="#about" >ABOUT</a></li>
+  <li style="width:10.7vw;"> <a class="mainNav" href="#tech">TECH ZONE</a></li>
+   <li style=" width:10.7vw;"> <a class="mainNav" href="#open" >OPEN ZONE</a></li>
+  <li style=" width:10.7vw;"> <img class="aagama" src="aagamanew.png" width="140vw" height="60px"> </li>
+  <li style="width:10.7vw;"> <a class="mainNav" href="#skill" >SKILL ZONE</a></li>
+  <li style=" width:10.7vw;"> <a class="mainNav" href="#fun" >FUN ZONE</a></li>
+  <li style="width:10.7vw"> <a class="mainNav" href="#team" >OUR TEAM</a></li>
+  <li style=" float: right; width:10.7vw"> <a class="mainNav" href="#sponsors" >SPONSORS</a></li>
+     </ul> 
+<div style="margin-top: -15px;"  > <marquee id='scroll_news' style="font-family: 'Cambria'; " bgcolor="white" >
+  <div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();">
+<b> Updates: The fest is being certified by ISTE, IEEE; No registration fee for most technical events and nominal fee for spot events. 
+Registrations for Fun Zone events are to be done on the spot. **NEW** Download our <a style="color:blue;" href="https://play.google.com/store/apps/details?id=com.cvsr.admin.aagama2k17&hl=en" target="_blank">
+aagama2k17 </a> app and experience non-stop excitement!!!! </b> </div></marquee>
+
+</div>
+</header> 
+
+<div class="wrapper" style="width:100%;">  
+
+<div class="container-fluid" style="width:100%; margin-top: -8px;">
+
+<div class="parallax" >
+
+<div class="new" >
+      <div style="text-align:center ; position: absolute; margin-top: -15px; margin-left: 3%;">  
+           <img src="aagamanew.png" height="200px" width="600px"/> 
+               <p style="margin-left: 32%; font-size: 20px; margin-top: -5%; font-family: Cambria;"> <b> <i> A Primeval Source of Knowledge </i> </b> </p>
+</div> 
+                  <br>       
+     <div  class="type" style="font-family: 'Cinzel'; font-color: black; margin-left: 20px; margin-bottom: 17px; margin-top: 20px;"><div> <br><br><br><br></div>
+  <h1> <a href="#" class="typewrite" data-period="2000" data-type='[ "WELCOME TO AAGAMA 2K17", "A NATIONAL LEVEL TECHNICAL FEST" ]'>
+    <span class="wrap"></span>
+  </a></h1></div> 
+
+<div class="type1" style="font-face: Cambria; font-size: 30px; position: absolute; text-align:center ; margin-top: 260px; "><b> 17 <sup>th</sup> & 18 <sup>th</sup> MARCH 2017 </b>  </div>
+
+<div class="type2" style="font-face: Cambria; font-size: 30px; position: absolute; text-align:center ; margin-top: 220px; "> 
+     <br> <br>  <p id="demo"></p>
+                             
+               
+</div>
+
+</div><!--new-->
+
+<div style="margin-top: -27%; float:right; margin-left: 90%; position: fixed; z-index: 120;"> <img style="border-radius: 50%; " src="homeaagama.png" height="85px" width="85px"> </div>
+
+<div style="margin-top: -20%; float:right; margin-left: 90%; position: fixed; z-index: 120;"> <img style="border-radius: 20%; " src="aicte.jpg" height="85px" width="85px"> </div>
+
+<div style="margin-top: -13%; float:right; margin-left: 90%; position: fixed; z-index: 120;"> <img style="border-radius: 0%; " src="nba.jpg" height="85px" width="85px"> </div>
+
+
+<div class="new1">
+          <div class="part-1" width="100%" >
+                   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1" >
+<div class="ws_images" style="margin-top: 8%; "><ul>
+		<li><img src="data4/images/colg10.jpg" alt="AGI A- BLOCK" title="AGI A- BLOCK" id="wows4_0"/></li>
+		<li><img src="data4/images/colg3.jpg" alt="AGI D- BLOCK" title="AGI D- BLOCK" id="wows4_1"/></li>
+		<li><img src="data4/images/colg4.jpg" alt="AGI E- BLOCK" title="AGI E- BLOCK" id="wows4_2"/></li>
+		<li><img src="data4/images/o.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION" title="AAGAMA 2K17 INAUGURAL FUNCTION" id="wows4_3"/></li>
+		<li><img src="data4/images/p.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION" title="AAGAMA 2K17 INAUGURAL FUNCTION" id="wows4_4"/></li>
+		<li><img src="data4/images/q.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION" title="AAGAMA 2K17 INAUGURAL FUNCTION" id="wows4_5"/></li>
+		<li><img src="data4/images/t.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION" title="AAGAMA 2K17 INAUGURAL FUNCTION" id="wows4_6"/></li>
+		<li><a href="http://wowslider.com"><img src="data4/images/u.jpg" alt="http://wowslider.com/" title="AAGAMA 2K17 INAUGURAL FUNCTION" id="wows4_7"/></a></li>
+		<li><img src="data4/images/v.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION" title="AAGAMA 2K17 INAUGURAL FUNCTION" id="wows4_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="AGI A- BLOCK"><span><img src="data4/tooltips/colg10.jpg" alt="AGI A- BLOCK"/>1</span></a>
+		<a href="#" title="AGI D- BLOCK"><span><img src="data4/tooltips/colg3.jpg" alt="AGI D- BLOCK"/>2</span></a>
+		<a href="#" title="AGI E- BLOCK"><span><img src="data4/tooltips/colg4.jpg" alt="AGI E- BLOCK"/>3</span></a>
+		<a href="#" title="AAGAMA 2K17 INAUGURAL FUNCTION"><span><img src="data4/tooltips/o.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION"/>4</span></a>
+		<a href="#" title="AAGAMA 2K17 INAUGURAL FUNCTION"><span><img src="data4/tooltips/p.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION"/>5</span></a>
+		<a href="#" title="AAGAMA 2K17 INAUGURAL FUNCTION"><span><img src="data4/tooltips/q.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION"/>6</span></a>
+		<a href="#" title="AAGAMA 2K17 INAUGURAL FUNCTION"><span><img src="data4/tooltips/t.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION"/>7</span></a>
+		<a href="#" title="AAGAMA 2K17 INAUGURAL FUNCTION"><span><img src="data4/tooltips/u.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION"/>8</span></a>
+		<a href="#" title="AAGAMA 2K17 INAUGURAL FUNCTION"><span><img src="data4/tooltips/v.jpg" alt="AAGAMA 2K17 INAUGURAL FUNCTION"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine4/wowslider.js"></script>
+	<script type="text/javascript" src="engine4/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+ 
+</div><!--part-1-->
+</div><!--new1-->
+
+<div class="new2">
+    <div id="about" style="font-family: 'Cambria'; color: black; margin-left: 20px; margin-bottom: 17px;"> 
+              <div style="font-size:44px; text-align:center;  " > <br>  <b> ABOUT AAGAMA </b> </div>
+              <div style="font-size: 2vw; margin-left:5%; margin-right: 5%;">
+ <b>    <p> To be abreast of recent developments and to provide a common platform to the budding technocrats from all over the country, to have knowledge 
+share and to explore new horizons in the concerned Engineering, Pharamceutical and Management 
+streams, Anurag Group of Institutions is organizing AAGAMA 2K17 on 17th and 18th March, 2017. </p>
+
+<p> In the present scenario professional education like engineering is demanding overall development from the students. 
+Student is expected to acquire thorough technical knowledge along with other supportive skills. With this back drop technical papers are 
+invited from all the corners of the country. All the papers will be peer reviewed. </p>
+
+<p> Many events like Tech Quiz, Poster presentation, Project presentation, Circruitrix, Velocity, Invasion, 
+Model Making, Lan gaming and many more are included to extract the young talents. This two day event is going to become the platform 
+for the exchange of recent technological developments and pool of young talents. </p></b>
+               </div>
+    </div> <!--about-->
+</div><!--new2-->
+
+<div class="new11">
+      <div id="student" style="font-family: 'Cambria'; color: black; margin-left: 20px; margin-bottom: 17px;"> 
+              <div style="font-size:44px; text-align:center; " > <br>  <b> STUDENT CO-ORDINATORS </b> <br> </div>
+              <div class="row" style="text-align: center; ">
+  <div class="col-md-4">
+
+       <div style="font-size: 2.5vw;">   <b> <i>   CHEMICAL: </i> </b> </div>
+<div style="font-size: 1.6vw; "> 
+Sweta : 9581922759 <br>
+T.N. Umamaheshwara Charry : 8008893905 <br>
+</div>
+
+
+<div style="font-size: 2.5vw;">   <b> <i>   CIVIL: </i> </b> </div>
+<div style="font-size: 1.6vw; "> 
+ D.Rahul : 9154220002 <br>
+S. Vijaya : 709597959 <br>
+</div>
+
+
+<div style="font-size: 2.5vw;">   <b> <i>   CSE: </i> </b> </div>
+<div style="font-size: 1.6vw; "> 
+V. Tarun : 7893589898 <br>
+A. Pavani : 9014453316   
+  </div>
+</div> 
+
+  <div class="col-md-4">
+<div style="font-size: 2.5vw;"> <b> <i>  ECE: </i> </b>  </div>
+<div style="font-size: 1.6vw; "> 
+R.Adithya : 8897750056 <br>
+Sai Swaroop : 9493988138 <br>
+</div>
+
+
+<div style="font-size: 2.5vw;"> <b> <i>  EEE: </i> </b>  </div>
+<div style="font-size: 1.6vw; "> 
+B. Hemanth Kumar : 8197239390 <br>
+K. Vamshidhar Reddy : 7396583266 <br>
+</div>
+
+
+<div style="font-size: 2.5vw;"> <b> <i>  IT: </i> </b>  </div>
+<div style="font-size: 1.6vw; "> 
+M. Sandhya : 7995593262 <br>
+CH. Eshwar : 9966870170 <br>
+Venkat : 9291222315 
+</div>
+    </div>
+
+
+  <div class="col-md-4">
+   <div style="font-size: 2.5vw;"> <b> <i>  MBA: </i> </b> </div>
+<div style="font-size: 1.6vw; "> 
+R. Nagesh : 9533930269 <br>
+G. Sravana Kalyani : 9059891891 <br>
+</div>
+
+
+   <div style="font-size: 2.5vw;"> <b> <i>  MECH: </i> </b>  </div>
+<div style="font-size: 1.6vw; "> 
+Sai Kesh : 7842787850 <br>
+E. Sidhartha Reddy : 9533343782 <br>
+Ch. Sri Pooja : 9515755019 <br>
+</div>
+
+
+<div style="font-size: 2.5vw;"> <b> <i>  PHARM: </i> </b>  </div>   
+<div style="font-size: 1.6vw; ">     
+Giri Prasad : 7337076891 <br>
+Mahender : 9989091838 <br>
+Arunati Singh :  9985272972
+  </div>
+</div> <!--row-->
+</div>    
+</div> <!--student-->
+</div> <!--new11-->
+<div class="new3">
+      <div id="tech" style="font-family: 'Cambria'; color: black; margin-left: 20px; margin-bottom: 17px;"> 
+              <div style="font-size:44px; text-align:center; " > <br> <br> <b> TECH ZONE </b> </div>
+              <div style="font-size: 24px; margin-left:5%; margin-right: 5%;">
+                       <b> This program would be filled with enriching content and shall give an addendum to your existing skills. <br>
+Your participation would help you display ideas in the most effective way. </b> </div>  
+               <div  style="text-align:center; ">      
+                     <br>        <img src="dept.jpg" width="700vw" height="400vh" style="border-radius: 50px;" >
+              </div>  
+              
+                <div id="chem" style="margin-top: -20%; margin-left: 32%; "><a href="chem.html" target="_blank">  <img class="chem1" src="chem.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"> </a></div>           
+              <div id="civil" style="margin-top: -1%; margin-left: 37%; "><a href="civil.html" target="_blank">  <img class="civil1" src="civil.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"> </a></div>
+              <div id="cse" style="margin-top: -9%; margin-left: 41%; ">
+<a href="cse.html" target="_blank">  <img class="cse1" src="cse.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"></a> </div>
+              <div id="ece" style="margin-top: -9%; margin-left: 45%; "><a href="ece.html" target="_blank">  <img class="ece1" src="ece.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"> </a></div>
+              <div id="eee" style="margin-top: 0.5%; margin-left: 48.75%; "><a href="eee.html" target="_blank">  <img class="eee1" src="eee.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"></a> </div>
+              <div id="it" style="margin-top: 0.5%; margin-left: 52.5%; "><a href="it.html" target="_blank">  <img class="it1" src="it.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"></a> </div>
+              <div id="mba" style="margin-top: -4%; margin-left: 58%;"><a href="mba.html" target="_blank">  <img class="mba1" src="mba.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"></a> </div>
+              <div id="mech" style="margin-top: -9%; margin-left: 61%; "><a href="mech1.html" target="_blank">  <img class="mech1" src="mech.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"></a> </div>
+              <div id="pharm" style="margin-top: -9%; margin-left: 65%; "><a href="pharma.html" target="_blank">  <img class="pharm1" src="pharm.jpg" width="60px" height="60px" style="border-radius: 40px; position: relative;"></a> </div>
+       </div> <!--tech-->      
+</div><!--new3-->
+
+<div class="new4">
+      <div id="open" style="font-family: 'Cambria'; color: black; margin-left: 20px; margin-bottom: 17px;"> 
+              <div style="font-size:44px; text-align:center; " >  <br> <br> <b> OPEN ZONE </b>  </div>
+              <div style="font-size: 24px; margin-left:5%; margin-right: 5%;">
+                   <br>    <b> Open Zone events are rich in necessary framework to enhance your participation and gives you an access to events like Virtual 
+    Job Fair, JAM, memory games like puzzles and quizes.</b> </div>  <br> 
+               <div  style="text-align:center; ">      
+                             <form><button class="button" formaction="open.html" formtarget="_blank"><span> Explore more  </span></button></form>
+              </div>  
+       </div> <!--open-->      
+</div><!--new4-->
+
+<div class="new5">
+      <div id="skill" style="font-family: 'Cambria'; color: black; margin-left: 20px; margin-bottom: 17px;"> 
+              <div style="font-size:44px; text-align:center; " > <br> <br>  <b> SKILL ZONE </b>  </div>
+              <div style="font-size: 24px; margin-left:78; margin-right: 5%;">
+                       <b> <br>Skill Zone events aid you in <br> 
+                                    <div style="margin-left:20%; ">(1) identifying your skill gaps and <br> (2) developing and honing these skills. </div> <br> These are important
+   because your skills determine your ability to execute your plans with success. </b> </div>  <br> 
+               <div  style="text-align:center; ">      
+                             <form><button class="button" formaction="skill.html" formtarget="_blank"><span> Explore more  </span></button></form>
+              </div>  
+       </div> <!--open-->      
+</div><!--new5-->
+
+<div class="new6">
+      <div id="fun" style="font-family: 'Cambria'; color: black; margin-left: 20px; margin-bottom: 17px;"> 
+              <div style="font-size:44px; text-align:center; " > <br> <br>  <b> FUN ZONE </b>  </div>
+              <div style="font-size: 24px; margin-left:78; margin-right: 5%;">
+                       <b> <br> The cherry on the cake would be a fun zone which is a source for more enjoyable eventds like treasure <br> hunting, dubsmashing, selfie story,
+do or die game, pie face challenge, logo games, movie quiz, <br> flash mob and much more !!! </b> </div>  <br> 
+               <div  style="text-align:center; ">      
+                             <form><button class="button" formaction="fun.html" formtarget="_blank"><span> Explore more  </span></button></form>
+              </div>  
+       </div> <!--open-->      
+</div><!--new6-->
+
+<div class="new7" style="border-style:groove; border-color: #000; margin-left: 10.5px; margin-right: 3px; "> 
+      <div id="team" width="80%" style="font-family: 'Cambria'; color: black; margin-left: 10px; margin-bottom: 17px;"> 
+                       <div  style="font-size:44px; font-family: 'Cambria' ;text-align:center; "> <br>  <b> OUR TEAM </b> <br> </div>
+              <div style="font-size:44px; " width="20vw" style=" float:left; margin-top: 25px;" >
+                     <div class="container" width="10vw" style="float:left; margin-left:30px; "> 
+                                <img id="img1" class="image" src="sonali.jpg" width="280vw" height="300px"> 
+                                          <div class="middle"> <div class="text"> Sonali Ghatay <br> Contact: 9705940142 <br> Email: sonalighate85@gmail.com</div> </div>
+                     </div>
+                     <div class="container" width="10vw" style="float:left; margin-left:45px; "> 
+                                <img id="img2" class="image" src="snigdha.jpg" width="280px" height="380px"> 
+                                          <div class="middle"> <div class="text"> Yada Snigdha <br> Contact: 9542897884<br> Email: yadasnigdhajba@gmail.com</div> </div>
+                     </div>
+               </div> <!--no name-->
+
+              <div style="font-size:44px; " width="20vw" style=" float:right; " >
+                     <div class="container" width="10vw" style="float:left; margin-left:45px; "> 
+                                <img id="img3" class="image" src="sindhu.jpg" width="280px" height="380px"> 
+                                          <div class="middle"> <div class="text"> G.S. Sindhu Priya <br> Contact: 9154365089 <br> Email: sindhugurram@hotmail.com</div> </div>
+                   </div> 
+                     <div class="container" width="10vw" style="float:right; margin-right: 7%; "> 
+                                <img id="img1" class="image" src="soujanya.jpg" width="280px" height="380px"> 
+                                          <div class="middle"> <div class="text"> M.L.L Sowjanya <br> Contact: 8712177009 <br> Email: leelamaddali@gmail.com</div> </div>
+                     </div> 
+               </div> <!--no name-->
+             
+               <div  style="text-align:center; ">   
+                             <form><button class="button" formaction="complete.html" formtarget="_blank"><span> COMPLETE TEAM  </span></button></form>
+              </div>  
+       </div> <!--team-->      
+</div><!--new7-->
+
+<div class="new8" style=" border-style:groove; border-color: #000; margin-left: 10.5px; margin-right: 3px; "> 
+      <div id="sponsors" width="80%" style="font-family: 'Cambria'; color: black; margin-left: 10px; margin-bottom: 17px;"> 
+                      <div  style="font-size:44px; font-family: 'Cambria' ;text-align:center; "> <b> <br>OUR SPONSORS </b> <br> </div>
+              <div class="row1 " style="margin-left:10%; margin-right:10%;margin-bottom:5%;margin-top:15px">
+       <div class="col-md-4">
+                <div style="margin-left:20%" > <img src="touch.jpg" height="100px" width="200px"> </div>
+       </div> <!--col-md-4-->
+
+<div class="col-md-4">
+                  <div style="margin-left:20%" > <img src="kakatiya.JPG" height="100px" width="200px"> </div>
+       </div> <!--col-md-4-->
+
+<div class="col-md-4">
+                  <div style="margin-left:20%" > <img src="wintonson.jpg" height="100px" width="200px"> </div>
+       </div> <!--col-md-4-->
+              </div> <!--row1-->
+
+<div class="row2 " style="margin-left:10%; margin-right:10%;margin-bottom:5%;margin-top:20%">
+       <div class="col-md-4">
+                <div style="margin-left:20%" > <img src="smart.jpg" height="100px" width="200px"> </div>
+       </div> <!--col-md-4-->
+
+<div class="col-md-4">
+                  <div style="margin-left:20%" > <img src="omega.jpg" height="100px" width="200px"> </div>
+       </div> <!--col-md-4-->
+
+<div class="col-md-4">
+                  <div style="margin-left:20%" > <img src="gate.jpg" height="100px" width="200px"> </div>
+       </div> <!--col-md-4-->
+              </div> <!--row2-->
+                
+       </div> <!--sponsors--> 
+     
+</div><!--new8-->
+<div class="new10">
+<div style="text-align:center; "> <h2> Route Map </h2>  </div>
+<div style="text-align:center; ">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8344000120496!2d78.65633176714168!3d17.41973309537991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb76730bf4dccf%3A0x2ca84b53416f0abd!2sAnurag+Group+of+Institutions!5e0!3m2!1sen!2sin!4v1486911862456" width="900" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div> </div> <!--new10-->
+
+<div class="new9">
+            <div class="footer"> 
+<div style="text-align: center; "> 
+ <pre> <strong> AAGAMA 2K17 - A NATIONAL LEVEL TECHNICAL FEST
+17 <sup>TH</sup> AND 18 <sup>TH</sup> MARCH 2017 <a href="https://www.facebook.com/aagama2k17/" class="fa fa-facebook" target="_blank"> </a>
+&copy; ALL RIGHTS RESERVED BY ANURAG GROUP OF INSTITUTIONS- INFORMATION TECHNOLOGY 2014-2018 
+</strong> </pre> </div>
+</div>
+</div><!--new9-->
+
+</div><!--parallax-->
+</div><!--container-fluid-->
+</div><!--wrapper-->
+</body>
+</html>
