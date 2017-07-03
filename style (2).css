@@ -1,0 +1,42 @@
+/* Put your css in here */
+
+
+body {
+background:#3366ff; }
+
+.left{
+ float: left; 
+ width: 6%;
+ height: 25px;
+ }
+
+
+.internal{
+ width: 100%;
+ height: 650px;
+ display: inline-block; background:#3366ff; margin-top: -80%;}
+
+
+.internal1{
+ width: 100%;
+ height: 620px;
+ 
+display: inline-block; background:#000; margin-top: -80%;}
+.center{
+ float: left; 
+ width: 100%;
+ height: 650px;
+  
+ overflow: hidden;
+ z-index: 20; 
+/*will change this to hidden later to deny scolling to user*/
+ white-space: nowrap;
+}
+
+
+.right{
+ float: right; 
+ width: 6%;
+ height: 25px;
+  margin-top: -50.7%; }
+
