@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>13</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>imgslider</GalleryName>
+            <GallerySuffix>4</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>book</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>600</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/wowslider-win-setup/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>800</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/home.html</PublishFileName>
+            <PublishIndex>home.html</PublishIndex>
+            <PublishPath>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54ACD2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/colg10.jpg</url>
+                <title>AGI A- BLOCK</title>
+                <filesize>26834</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/colg3.jpg</url>
+                <title>AGI D- BLOCK</title>
+                <filesize>389615</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/colg4.jpg</url>
+                <title>AGI E- BLOCK</title>
+                <filesize>484146</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/o.JPG</url>
+                <title>AAGAMA 2K17 INAUGURAL FUNCTION</title>
+                <filesize>6859367</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/p.jpg</url>
+                <title>AAGAMA 2K17 INAUGURAL FUNCTION</title>
+                <filesize>6954087</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/q.jpg</url>
+                <title>AAGAMA 2K17 INAUGURAL FUNCTION</title>
+                <filesize>6866011</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/t.jpg</url>
+                <title>AAGAMA 2K17 INAUGURAL FUNCTION</title>
+                <filesize>6863390</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/u.jpg</url>
+                <title>AAGAMA 2K17 INAUGURAL FUNCTION</title>
+                <filesize>7329176</filesize>
+            </Image>
+            <Image>
+                <url>C:/Program Files/Apache Software Foundation/Tomcat 7.0/webapps/aagama/v.jpg</url>
+                <title>AAGAMA 2K17 INAUGURAL FUNCTION</title>
+                <filesize>3481398</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
