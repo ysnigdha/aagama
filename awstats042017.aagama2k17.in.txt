@@ -1,0 +1,580 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201704 will be lost/reset.
+# Last config file used to build this data file was /home/sonalighate85/tmp/awstats/awstats.aagama2k17.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2684                
+POS_VISITOR 10825               
+POS_DAY 14653               
+POS_DOMAIN 3491                
+POS_LOGIN 3972                
+POS_ROBOT 4127                
+POS_WORMS 4616                
+POS_EMAILSENDER 4747                
+POS_EMAILRECEIVER 4890                
+POS_SESSION 15431               
+POS_SIDER 15621               
+POS_FILETYPES 5025                
+POS_DOWNLOADS 5242                
+POS_OS 5290                
+POS_BROWSER 5527                
+POS_SCREENSIZE 6236                
+POS_UNKNOWNREFERER 6310                
+POS_UNKNOWNREFERERBROWSER 6520                
+POS_ORIGIN 6602                
+POS_SEREFERRALS 6744                
+POS_PAGEREFS 6939                
+POS_SEARCHWORDS 7307                
+POS_KEYWORDS 7481                
+POS_MISC 2348                
+POS_ERRORS 7562                
+POS_CLUSTER 3828                
+POS_SIDER_404 7667                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170430044408 126 28643 10459444350632
+FirstTime 0
+LastTime 20170430024413
+LastUpdate 20170430044951 126 0 126 0 0
+TotalVisits 110                 
+TotalUnique 66                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 110                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 14 282 38695825 22 148 373253
+1 10 91 12058823 21 128 11870038
+2 23 41 578569 50 79 671197
+3 13 79 12657879 11 55 84101
+4 17 250 38480876 9 159 2213185
+5 23 210 16363474 17 85 278813
+6 10 79 11503036 13 90 355814
+7 18 45 1768990 11 24 808543
+8 6 130 23792919 12 93 462430
+9 1 5 1443774 18 48 480034
+10 8 120 23904219 8 102 95728
+11 4 9 257224 11 44 427150
+12 0 1 52141 10 29 310176
+13 3 4 3442 8 32 900643
+14 0 0 0 24 63 2206618
+15 0 0 0 22 45 926933
+16 1 1 2712 12 32 1150725
+17 0 0 0 28 59 1827605
+18 2 6 201613 34 53 1194607
+19 2 3 665864 16 28 228964
+20 6 63 11207041 13 82 452685
+21 11 47 5436799 17 44 599105
+22 11 28 761124 23 70 1466721
+23 27 280 41572986 22 153 795924
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 108 497 34768396
+in 85 1173 192627126
+ru 8 74 11645694
+cn 4 4 4088
+jp 3 4 90379
+gb 2 3 665130
+ph 0 1 52141
+sg 0 1 52141
+ro 0 2 70070
+ie 0 1 195224
+id 0 6 227316
+lk 0 1 52141
+eg 0 1 52141
+pe 0 1 52141
+tr 0 1 52141
+au 0 1 35035
+iq 0 1 52141
+za 0 1 52141
+th 0 1 663744
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 388 11616326 20170430044408 0
+googlebot 88 74871 20170429184013 0
+google[_+\s]web[_+\s]preview 55 11179450 20170401014538 0
+googlebot\-image 35 0 20170429134754 0
+php 34 6051944 20170430024222 0
+msnbot\-media 26 45741 20170412152408 0
+robot 26 65585 20170429181853 0
+spider 15 16191 20170427140633 0
+bingpreview 4 9993 20170423160759 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+png 114 20317108 0 0
+eot 2 5424 0 0
+css 54 302172 0 0
+html 208 680098 0 0
+js 76 1171582 0 0
+ico 55 143495 0 0
+jpg 1231 216254706 0 0
+jpeg 34 2534745 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+macosx 15 10
+winnt 1013 66
+Unknown 85 2
+linuxandroid 162 32
+win8.1 62 2
+win7 118 16
+winphone 43 6
+ios_ipad 1 0
+java 1 0
+ios_iphone 100 4
+winxp 38 19
+linux 79 52
+win8 57 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 36
+chrome51.0.2683.0 12 1
+chrome38.0.1025.166 20 4
+firefox11.0 4 0
+firefox53.0 5 1
+msie9.0 9 5
+firefox7.0.1 1 1
+chrome46.0.2486.0 1 0
+firefox48.0 1 1
+nokia 1 0
+iphone 1 1
+safari5.0.4 20 13
+chrome56.0.2924.87 203 12
+safari 184 6
+chrome57.0.2987.110 1 0
+chrome28.0.1500.95 55 1
+chrome57.0.2987.132 85 11
+chrome48.0.2564.106 2 1
+chrome55.0.2883.91 11 4
+android 12 7
+firefox22.0 1 0
+opera12.16 6 2
+chrome58.0.3029.81 1 0
+safari10.0 1 0
+chrome43.0.2357.93 4 1
+msie8.0 15 7
+msie11.0 44 6
+chrome57.11.2987.98 1 0
+msie6.0 1 1
+firefox52.0 18 10
+firefox50.0 1 0
+chrome57.0.2987.133 972 63
+msie7.0 1 0
+chrome33.0.1750.5 1 0
+wget 1 1
+safari7.0 3 1
+chrome49.0.2623.75 75 49
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(MeeGo;_NokiaN9)_AppleWebKit/534.13_(KHTML,_like_Gecko)_NokiaBrowser/8.5.0_Mobile_Safari/534.13 20170415043721
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 99 134
+From1 0 0
+From2 18 132
+From3 12 12
+From4 81 1496
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+yandex 6 6
+google_image 0 1
+bing 1 1
+google 11 124
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://anurag.edu.in/aagama2k17/ 5 5
+http://m.facebook.com 2 2
+http://googleweblight.com 1 1
+http://lm.facebook.com/l.php 1 1
+http://m.facebook.com 1 1
+http://11.11.110.1/login 1 1
+https://www.facebook.com/check_tag 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+aagama2k17 2
+amazon 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+aagama2k17 2
+amazon 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 1007 881268
+206 7 239623
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 72
+/main.aspx 2 -
+/main.html 2 -
+/modernizr.custom.js 3 http://aagama2k17.in/m.team.html
+/images/bg1.png 3 http://aagama2k17.in/m.tech.html
+/index 2 -
+/wp/wp-admin/setup-config.php 1 -
+/default.asp 2 -
+/index.htm 2 -
+/wp-content/plugins/wp2android-turn-wp-site-into-android-app/readme.txt 1 -
+/bootstrap/inbootstrap/css/bootstrap-theme.min.css 63 http://www.aagama2k17.in/home.html
+/data1/tooltips/colg6.jpg 5 -
+/wordpress/wp-admin/setup-config.php 1 -
+/blog/wp-login.php 1 http://www.360musicng.com/blog/wp-login.php
+/fonts/fontawesome-webfont.woff2 1 http://aagama2k17.in/font-awesome.css
+/data1/images/colg5.jpg 2 -
+/data1/images/colg2.jpg 5 -
+/main.php 2 -
+/blog/wp-admin/setup-config.php 1 -
+/js/index.js 61 http://www.aagama2k17.in/home.html
+/bootstrap/inbootstrap/css/bootstrap.min.css 62 http://www.aagama2k17.in/home.html
+/data1/tooltips/colg1.jpg 2 -
+/contacts.htm 2 -
+/wp-content/plugins/webapp-builder/readme.txt 1 -
+/wp-content/plugins/stats-wp/readme.txt 1 -
+/main.htm 2 -
+/css/main.css 15 http://www.aagama2k17.in/m.open.html
+/fonts/fontawesome-webfont.woff 1 http://aagama2k17.in/font-awesome.css
+/default.php 2 -
+/data1/images/colg1.jpg 3 -
+/wp-content/plugins/gallery-slider/readme.txt 1 -
+/bootstrap/inbootstrap/css/bootstrap.theme.css.map.css 63 http://www.aagama2k17.in/home.html
+/data1/tooltips/colg2.jpg 6 -
+/bootstrap/inbootstrap/css/bootstrap-theme.css 63 http://www.aagama2k17.in/home.html
+/js/jquery.js 58 http://www.aagama2k17.in/home.html
+/bootstrap/inbootstrap/css/bootstrap.css 62 http://www.aagama2k17.in/home.html
+/index.ht,l 1 -
+/index.php 2 -
+/blog/robots.txt 1 -
+/data1/tooltips/colg5.jpg 4 -
+/js/jquery.backstretch.js 61 http://www.aagama2k17.in/home.html
+/wp-content/plugins/seo-keyword-page/readme.txt 1 -
+/wp/ 1 -
+/data1/images/colg8.jpg 7 -
+/wow.min.js 84 http://www.aagama2k17.in/home.html
+/data1/tooltips/colg7.jpg 3 -
+/wordpress/ 1 -
+/tech.css 3 http://www.aagama2k17.in/m.common.html
+/wp-content/plugins/wp-handy-lightbox/readme.txt 1 -
+/data1/tooltips/colg8.jpg 4 -
+/data1/images/colg7.jpg 2 -
+/index.aspx 2 -
+/img/apple-touch-icon-114x114.png 1 http://aagama2k17.in/m.team.html
+/old/wp-admin/setup-config.php 1 -
+/default.html 2 -
+/wp-content/plugins/mobile-app-builder-by-wappress/readme.txt 1 -
+/contacts.html 2 -
+/index.asp 2 -
+/default.aspx 2 -
+/technicalit.html 3 -
+/img/apple-touch-icon.png 1 http://aagama2k17.in/m.team.html
+/img/apple-touch-icon-72x72.png 1 http://aagama2k17.in/m.team.html
+/data1/images/colg6.jpg 2 -
+/main.asp 2 -
+/gen_validatorv31.js 3 http://www.aagama2k17.in/m.common.html
+/fonts/fontawesome-webfont.ttf 1 http://aagama2k17.in/font-awesome.css
+/xmlrpc.php 2 http://aagama2k17.in/xmlrpc.php
+/animate.css 87 http://www.aagama2k17.in/home.html
+/blog/ 1 -
+/test/wp-admin/setup-config.php 1 -
+/bsindex.css 61 http://www.aagama2k17.in/home.html
+/default.htm 2 -
+/robots.txt 147 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 110
+27.6.41.38 14 95 14149438 20170407235255
+64.74.215.132 13 20 34142 20170405024602
+66.102.6.88 12 21 157285 20170428035400
+183.82.230.53 10 15 441675 20170420074419
+157.48.15.157 10 85 824233 20170418054918
+66.102.6.153 8 12 40612 20170423001332
+66.102.6.151 8 10 35394 20170422063801
+66.102.6.87 6 12 87402 20170406101743
+103.232.129.54 6 84 13281694 20170423234606
+66.102.6.152 6 10 45724 20170422200938
+117.98.139.165 6 97 14035689 20170421230125
+124.123.73.51 5 72 11889808 20170402014853
+66.102.6.89 5 7 32214 20170412073007
+106.51.24.48 5 113 15458832 20170420052447
+157.48.5.30 4 64 71033 20170409002904
+157.48.6.75 4 28 3054422 20170403215152
+183.13.190.64 4 4 4088 20170420020647
+27.6.128.12 4 64 11755793 20170425032602
+113.35.251.98 3 4 90379 20170424223841
+171.49.228.221 3 8 580966 20170425213424
+117.195.213.227 3 58 11184318 20170412051613
+115.98.132.56 3 56 5649223 20170415043816
+27.6.45.81 3 103 21974819 20170422102135
+103.12.118.250 2 48 9714645 20170402045740
+157.48.11.160 2 96 15722465 20170416002930
+43.241.64.70 0 1 140047 
+101.128.114.208 0 1 35035 
+5.228.128.154 1 3 165524 20170429040017
+5.164.223.36 2 5 56546 20170404064633
+103.66.79.182 0 1 663744 
+62.201.220.195 0 1 52141 
+36.77.175.185 0 1 35035 
+61.14.33.168 0 1 35035 
+52.33.171.222 1 1 8292 20170407072825
+64.233.173.140 1 2 196284 20170409004626
+49.39.227.176 2 57 11183119 20170426204002
+118.200.73.137 0 1 52141 
+36.84.13.56 0 1 35035 
+66.102.6.27 2 3 19193 20170425033419
+27.6.39.223 2 11 562509 20170405043043
+157.48.15.102 1 2 17998 20170401225942
+27.6.46.172 1 5 63530 20170424041636
+82.208.134.54 0 2 70070 
+123.231.107.11 0 1 52141 
+220.225.72.170 0 1 14120 
+223.230.88.38 2 69 12459986 20170410083408
+119.235.51.178 0 5 0 
+124.123.75.182 0 1 63085 
+66.102.6.31 1 2 10901 20170424074759
+117.98.180.97 0 1 250148 
+46.188.29.159 1 3 165524 20170424212352
+66.249.84.27 0 1 71442 
+157.48.2.96 2 6 202963 20170408115452
+117.200.204.40 0 1 52141 
+183.82.206.191 2 5 200215 20170430024413
+139.195.56.65 0 1 52141 
+27.6.41.173 2 57 10857839 20170420043859
+156.204.26.54 0 1 52141 
+168.235.194.201 2 3 88335 20170409001623
+66.249.84.31 0 2 147694 
+66.220.151.91 1 1 1060 20170409114717
+139.193.35.160 0 1 35035 
+8.37.235.177 2 2 2120 20170429133138
+223.186.212.59 0 2 1560884 
+174.34.185.244 1 1 2044 20170424180422
+77.37.137.48 2 6 66242 20170420012138
+168.235.196.185 0 1 35035 
+103.205.134.182 0 1 663744 
+87.33.153.2 0 1 195224 
+49.206.218.124 2 57 11183119 20170429082916
+73.137.245.149 1 4 165896 20170427103855
+61.7.168.46 0 1 663744 
+66.249.83.27 0 2 104282 
+92.45.250.110 0 1 52141 
+115.98.129.11 1 2 1322 20170429133146
+83.217.214.72 1 1 2712 20170425160644
+36.72.107.19 0 1 35035 
+109.157.98.82 2 2 1386 20170406034422
+204.79.180.77 0 1 33282 
+103.41.97.162 2 2 2259 20170429033942
+66.102.6.195 2 3 19193 20170429222221
+204.79.180.239 1 1 8292 20170407042531
+176.193.102.144 1 55 11179450 20170404003057
+46.188.32.37 0 1 9696 
+112.110.116.106 0 1 663744 
+204.79.180.47 0 1 9706 
+66.249.85.147 0 3 122211 
+213.247.2.114 0 1 52141 
+103.211.60.227 1 56 11182059 20170416002826
+66.249.84.29 0 1 1281791 
+111.125.111.103 0 1 52141 
+159.147.150.5 0 1 663744 
+64.233.173.142 1 2 1322 20170409004629
+64.233.173.17 2 3 5925 20170424033044
+157.48.14.50 2 57 11183119 20170404060316
+64.233.173.18 0 1 2609 
+204.79.180.120 0 1 2554 
+157.48.11.6 1 4 199155 20170403103410
+66.249.85.145 1 6 109283 20170403070127
+204.79.180.143 0 1 9696 
+115.98.128.213 1 3 112393 20170408185722
+103.24.127.67 0 1 52141 
+64.233.173.141 0 1 2609 
+157.48.5.27 2 5 200215 20170405044035
+64.233.173.19 1 4 391631 20170421100344
+66.102.6.29 2 3 4729 20170425052148
+27.116.18.11 2 19 569786 20170426223925
+190.236.147.80 0 1 52141 
+66.102.6.193 0 1 2609 
+183.83.242.243 1 1 8292 20170419053136
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20170401 4 18 3101559 4
+20170402 8 123 21667495 3
+20170403 13 57 3751294 9
+20170404 8 127 23365391 6
+20170405 19 46 857982 5
+20170406 4 6 48382 3
+20170407 18 104 14233221 5
+20170408 4 14 501981 3
+20170409 11 77 407639 7
+20170410 4 73 12611994 3
+20170411 1 2 10901 1
+20170412 4 59 11185378 2
+20170413 2 4 64102 2
+20170414 3 4 13021 3
+20170415 4 57 5650283 2
+20170416 4 154 26940619 3
+20170417 2 4 675705 2
+20170418 11 88 1498878 2
+20170419 2 5 123475 2
+20170420 26 201 27143986 8
+20170421 11 107 14258766 6
+20170422 5 106 21986780 3
+20170423 7 87 13981533 2
+20170424 8 19 567363 7
+20170425 11 79 12397368 6
+20170426 3 72 12551907 2
+20170427 1 6 235966 1
+20170428 1 2 10901 1
+20170429 9 68 11365245 6
+20170430 2 5 200215 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 2
+30s-2mn 8
+15mn-30mn 2
+2mn-5mn 2
+0s-30s 96
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/ 62 67536 52 30
+/home.html 57 472644 41 42
+/m.home.html 12 14388 5 9
+/home1.html 8 2608 0 4
+/skill.html 7 8040 0 0
+/cse.html 5 7610 1 0
+/paperchem.html 4 10848 3 3
+/civil.html 3 4827 1 1
+/m.team.html 3 10383 1 1
+/open.html 3 4683 0 1
+/m.tech.html 3 6351 1 2
+/word.html 3 3846 0 2
+/papercse.html 2 4842 0 1
+/bugthebugit.html 2 4596 1 2
+/engine1/ws-ctrl-convex.eot 2 5424 0 2
+/it.html 2 2940 1 1
+/laser.html 2 2758 0 1
+/projectcivil.html 2 4174 2 2
+/huntthecode.html 2 4624 0 1
+/lan.html 2 2722 0 1
+/softskills.html 2 2410 0 0
+/pharma.html 1 1477 0 0
+/groupmba.html 1 2097 0 0
+/m.common.html 1 1968 0 0
+/chem.html 1 1450 0 0
+/mech1.html 1 1383 0 0
+/complete.html 1 1668 0 1
+/fun.html 1 1464 0 0
+/allround.html 1 2255 0 0
+/postercse.html 1 2129 0 0
+/shell.html 1 1351 0 0
+/m.skil.html 1 1789 0 0
+/cadd.html 1 1327 0 0
+/m.skill.html 1 1346 0 0
+/mba.html 1 1464 0 0
+/play.html 1 1307 0 0
+/app.html 1 2091 0 0
+/paperIT.html 1 2223 1 1
+/m.open.html 1 1419 0 0
+/four.html 1 2160 0 0
+/dumb.html 1 1954 0 1
+/eee.html 1 1559 0 0
+/idea.html 1 1387 0 1
+END_SIDER

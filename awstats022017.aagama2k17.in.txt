@@ -1,0 +1,411 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201702 will be lost/reset.
+# Last config file used to build this data file was /home/sonalighate85/tmp/awstats/awstats.aagama2k17.in.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2015                
+POS_TIME 2687                
+POS_VISITOR 9724                
+POS_DAY 10938               
+POS_DOMAIN 3368                
+POS_LOGIN 3619                
+POS_ROBOT 3774                
+POS_WORMS 3906                
+POS_EMAILSENDER 4037                
+POS_EMAILRECEIVER 4180                
+POS_SESSION 11048               
+POS_SIDER 11254               
+POS_FILETYPES 4315                
+POS_DOWNLOADS 4556                
+POS_OS 4604                
+POS_BROWSER 4770                
+POS_SCREENSIZE 5140                
+POS_UNKNOWNREFERER 5214                
+POS_UNKNOWNREFERERBROWSER 5355                
+POS_ORIGIN 5491                
+POS_SEREFERRALS 5630                
+POS_PAGEREFS 5774                
+POS_SEARCHWORDS 5922                
+POS_KEYWORDS 6074                
+POS_MISC 2351                
+POS_ERRORS 6133                
+POS_CLUSTER 3475                
+POS_SIDER_404 6240                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170301001612 1 0 11084825714352
+FirstTime 20170227234356
+LastTime 20170228233148
+LastUpdate 20170301235541 1 0 0 0 0
+TotalVisits 47                  
+TotalUnique 25                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 29                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 23 141 14275139 34 185 146547
+2 60 498 55516664 11 125 19352257
+3 12 57 2672764 3 30 1892269
+4 14 101 3695903 13 69 59133
+5 32 281 26476263 6 43 35994
+6 31 247 23941849 15 62 1940826
+7 16 189 25402804 3 17 12855
+8 120 520 50113790 8 89 6954662
+9 45 213 12387529 9 48 3166344
+10 14 160 20803005 0 6 9230
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 1 1 825 0 0 0
+17 0 0 0 0 0 0
+18 5 55 734257 0 2 0
+19 0 0 0 0 1 0
+20 6 26 1231955 3 29 24853
+21 2 29 8865984 0 1 0
+22 0 0 0 0 0 0
+23 14 49 9124833 1 20 14569
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+in 357 2388 248962883
+us 38 179 6280681
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 156 289207 0 0
+Unknown 1 2620 0 0
+png 255 23452151 0 0
+jpg 1561 224581782 0 0
+jpeg 35 4109379 0 0
+gif 25 531324 0 0
+js 69 1047213 0 0
+html 394 1044649 0 0
+ico 71 185239 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+Unknown 2 2
+ios_iphone 62 9
+linux 48 47
+winnt 597 71
+win8.1 231 15
+linuxandroid 368 83
+win7 1259 168
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 16
+chrome44.0.2403.133 6 3
+chrome51.0.2704.79 8 6
+firefox47.0 45 45
+chrome50.0.2661.89 24 4
+chrome54.0.2840.85 5 3
+firefox51.0 13 9
+msie8.0 1 1
+chrome51.0.2683.0 95 8
+firefox43.0 3 2
+chrome55.0.2883.87 52 3
+firefox50.0 1 1
+chrome38.0.0.0 5 3
+chrome56.0.2924.87 2180 276
+chrome55.0.2883.91 65 20
+Unknown 2 2
+safari7.0 62 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WhatsApp/2.17.79_A 20170228084814
+Ruby 20170228161322
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.17.79_A 20170228084814
+Ruby 20170228161322
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 135 135
+From1 1 1
+From2 0 0
+From3 0 0
+From4 259 2431
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 69 33096196
+404 599 513343
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 64
+/m.home.css 9 http://www.aagama2k17.in/m.home.html
+/fonts/fontawesome-webfont.ttf 21 http://www.aagama2k17.in/font-awesome.css
+/papercse.html 2 -
+/images/bg1.png 27 http://www.aagama2k17.in/m.common.html
+/virtual.jpg 1 http://www.aagama2k17.in/open.html
+/poster.jpg 3 http://www.aagama2k17.in/pharma.html
+/co-convenor.jpg 13 http://www.aagama2k17.in/m.team.html
+/modernizr.custom.js 22 http://www.aagama2k17.in/m.team.html
+/img8.jpg 5 http://www.aagama2k17.in/home.html
+/webpage.jpg 2 http://www.aagama2k17.in/cse.html
+/second.jpg 1 http://www.aagama2k17.in/fun.html
+/arrow.JPG 1 http://www.aagama2k17.in/allround.html
+/snigdha.JPG 17 http://www.aagama2k17.in/m.team.html
+/sindhu.jpg 15 http://www.aagama2k17.in/home.html
+/animate.css 57 http://www.aagama2k17.in/m.home.html
+/it.jpg 11 http://www.aagama2k17.in/home.html
+/pharma.html 2 -
+/m.home1.html 1 -
+/home1.html 4 http://www.aagama2k17.in/
+/mba.jpg 14 http://www.aagama2k17.in/home.html
+/tech.css 2 http://www.aagama2k17.in/m.common.html
+/soujanya.jpg 15 http://www.aagama2k17.in/home.html
+/paper.jpg 3 http://www.aagama2k17.in/eee.html
+/sonali.jpg 16 http://www.aagama2k17.in/home.html
+/fonts/fontawesome-webfont.svg 3 http://www.aagama2k17.in/m.team.html
+/download.jpg 16 http://www.aagama2k17.in/
+/virtual1.jpg 1 http://www.aagama2k17.in/skill.html
+/quiz.jpg 1 http://www.aagama2k17.in/pharma.html
+/home.html 19 http://www.aagama2k17.in/
+/snigdha.jpg 14 http://www.aagama2k17.in/m.team.html
+/hunt.png 1 http://www.aagama2k17.in/cse.html
+/treas.png 1 http://www.aagama2k17.in/fun.html
+/techhunt.jpg 1 http://www.aagama2k17.in/eee.html
+/img/apple-touch-icon-114x114.png 12 http://www.aagama2k17.in/m.team.html
+/m.tech.html 7 http://www.aagama2k17.in/m.home.html
+/fonts/fontawesome-webfont.woff 21 http://www.aagama2k17.in/font-awesome.css
+/wow.min.js 79 http://www.aagama2k17.in/m.team.html
+/open.html 7 -
+/project.jpg 3 http://www.aagama2k17.in/eee.html
+/velocity.jpg 1 http://www.aagama2k17.in/open.html
+/fonts/fontawesome-webfont.woff2 18 http://www.aagama2k17.in/font-awesome.css
+/img9.jpg 5 http://www.aagama2k17.in/home.html
+/img5.jpg 4 http://www.aagama2k17.in/home.html
+/keyboard.jpg 1 http://www.aagama2k17.in/allround.html
+/img.png 4 http://www.aagama2k17.in/home.html
+/invasion.png 12 http://www.aagama2k17.in/open.html
+/quicksurvey.jpg 1 http://www.aagama2k17.in/civil.html
+/img10.jpg 4 http://www.aagama2k17.in/home.html
+/selfie.jpg 1 http://www.aagama2k17.in/fun.html
+/word.jpeg 1 http://www.aagama2k17.in/skill.html
+/postercse.html 2 -
+/pharm.jpg 14 http://www.aagama2k17.in/home.html
+/gen_validatorv31.js 2 http://www.aagama2k17.in/m.common.html
+/img/apple-touch-icon.png 12 http://www.aagama2k17.in/m.team.html
+/skill.html 2 -
+/css/main.css 29 http://www.aagama2k17.in/m.common.html
+/talent.jpeg 1 http://www.aagama2k17.in/pharma.html
+/anurag.ico 2 http://www.aagama2k17.in/m.home.html
+/mech.jpg 14 http://www.aagama2k17.in/home.html
+/truss.png 1 http://www.aagama2k17.in/civil.html
+/ulta.jpeg 2 http://www.aagama2k17.in/fun.html
+/technical.jpg 3 http://www.aagama2k17.in/eee.html
+/img/apple-touch-icon-72x72.png 12 http://www.aagama2k17.in/m.team.html
+/scary.jpg 1 http://www.aagama2k17.in/fun.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 29
+103.15.62.210 102 745 89224055 20170228233148
+49.206.220.161 77 456 35738101 20170228105957
+183.83.229.202 65 231 24886521 20170228085014
+124.123.87.216 31 212 14348739 20170228103523
+27.6.32.114 16 167 15046721 20170228084630
+49.206.214.94 15 105 11129345 20170228095425
+64.233.173.20 11 49 1724513 20170228205934
+64.233.173.21 10 48 2796556 20170228205635
+183.82.209.207 10 111 14297305 20170228073042
+124.123.83.224 10 98 10687074 20170228184904
+64.233.173.19 9 59 1630364 20170228205457
+115.98.99.163 6 9 263757 20170228103200
+106.220.143.92 4 24 1273397 20170228065256
+27.6.33.74 4 7 93942 20170228084814
+157.50.3.237 3 4 4015 20170228085643
+157.48.3.247 3 5 7428 20170228033301
+27.6.3.119 3 5 6613 20170228051004
+183.82.206.63 3 68 11075443 20170228091514
+27.251.197.195 3 53 9656287 20170228085941
+122.171.110.250 3 5 6624 20170228084639
+183.82.229.132 2 51 9646959 20170228085056
+27.6.40.184 2 24 365819 20170228185956
+184.168.224.231 1 1 825 20170228161322
+49.202.67.214 1 17 1216181 20170228033242
+157.48.0.203 1 2 1243 20170228092441
+66.249.82.127 0 5 48090 
+66.249.82.123 0 2 3142 
+66.249.82.125 0 3 61896 
+157.50.5.52 0 1 2609 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 2
+20170227 10 13 29540 4
+20170228 385 2554 255214024 43
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 20
+15mn-30mn 2
+30mn-1h 5
+2mn-5mn 3
+5mn-15mn 8
+30s-2mn 6
+1h+ 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 52
+/ 85 69724 33 4
+/home.html 71 570286 0 8
+/m.home.html 31 34720 7 6
+/m.team.html 18 59340 3 10
+/open.html 14 22865 0 0
+/it.html 12 17889 0 0
+/m.tech.html 12 23364 0 5
+/allround.html 12 24519 0 0
+/fun.html 11 15752 0 1
+/skill.html 10 12586 0 0
+/home1.html 10 1450 0 3
+/bugthebugit.html 8 17799 0 1
+/complete.html 7 9239 0 1
+/paperIT.html 6 12810 0 1
+/m.open.html 5 6345 0 2
+/puzzle.html 5 10772 0 0
+/laser.html 4 4852 0 0
+/m.skill.html 4 4784 1 1
+/mech1.html 4 6031 0 0
+/JAM.html 4 9265 0 0
+/four.html 4 7996 0 0
+/invasion.html 4 6575 0 0
+/pharma.html 4 7128 0 0
+/cse.html 4 5728 1 0
+/cadd.html 3 3447 0 0
+/webpage.html 1 1976 0 1
+/eee.html 3 4302 0 0
+/projectece.html 1 2053 0 0
+/cyber.html 2 3769 0 0
+/cpanel 1 2620 0 0
+/fast.html 1 1072 0 0
+/ece.html 2 2764 0 0
+/technicalIT.html 1 2127 0 0
+/car.html 1 1912 0 0
+/lan.html 1 1199 0 0
+/postereee.html 1 1991 0 0
+/civilmodel.html 1 1743 0 0
+/groupmba.html 1 1979 0 0
+/techhunt.html 1 2506 0 0
+/businessmba.html 1 2194 0 0
+/mechards.html 3 9013 0 0
+/m.common.html 2 3628 1 1
+/papereee.html 1 2064 0 0
+/postercse.html 2 4024 1 1
+/minute.html 1 1817 0 0
+/app.html 3 5142 0 1
+/posterece.html 1 2217 0 0
+/mba.html 3 4011 0 0
+/civil.html 1 1471 0 0
+/papermech.html 3 9063 0 0
+/codecrackerIT.html 1 1983 0 0
+/word.html 3 3363 0 0
+END_SIDER
